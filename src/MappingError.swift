@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum MappingError: Swift.Error {
+public enum MappingError: Swift.Error {
     case expectedObjectType
     case expectedArrayType
     case expectedCompulsoryParameter(name: String?)
