@@ -10,7 +10,7 @@ import Foundation
 
 public enum MappingResult<Value> {
     case success(Value)
-    case failure(Error)
+    case failure(MappingError)
     
     public var isSuccess: Bool {
         switch self {
