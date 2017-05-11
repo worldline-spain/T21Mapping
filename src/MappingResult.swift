@@ -34,7 +34,7 @@ public enum MappingResult<Value> {
         }
     }
     
-    public var error: Error? {
+    public var error: MappingError? {
         switch self {
         case .success:
             return nil
