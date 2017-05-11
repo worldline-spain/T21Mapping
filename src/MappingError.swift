@@ -12,5 +12,6 @@ public enum MappingError: Swift.Error {
     case expectedObjectType
     case expectedArrayType
     case expectedCompulsoryParameter(name: String?)
+    case expectedType(type: String?, key: String?)
     case other(error: Swift.Error)
 }
