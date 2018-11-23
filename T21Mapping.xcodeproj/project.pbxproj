@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F83248121A8439B0081FD4D /* T21Mapping.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F83248021A8439B0081FD4D /* T21Mapping.podspec */; };
 		B9CB22061E55F81B0041EA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22051E55F81B0041EA76 /* AppDelegate.swift */; };
 		B9CB22081E55F81B0041EA76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22071E55F81B0041EA76 /* ViewController.swift */; };
 		B9CB220B1E55F81B0041EA76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CB22091E55F81B0041EA76 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F83248021A8439B0081FD4D /* T21Mapping.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21Mapping.podspec; sourceTree = "<group>"; };
 		B9CB22021E55F81B0041EA76 /* T21Mapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Mapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CB22051E55F81B0041EA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9CB22071E55F81B0041EA76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		B9CB21F91E55F81B0041EA76 = {
 			isa = PBXGroup;
 			children = (
+				9F83248021A8439B0081FD4D /* T21Mapping.podspec */,
 				B9CB22041E55F81B0041EA76 /* T21Mapping */,
 				B9CB22251E55F8D80041EA76 /* src */,
 				B9CB22191E55F81C0041EA76 /* T21MappingTests */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9CB22101E55F81B0041EA76 /* LaunchScreen.storyboard in Resources */,
+				9F83248121A8439B0081FD4D /* T21Mapping.podspec in Resources */,
 				B9CB220D1E55F81B0041EA76 /* Assets.xcassets in Resources */,
 				B9CB220B1E55F81B0041EA76 /* Main.storyboard in Resources */,
 			);
@@ -387,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Mapping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -401,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Mapping;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -416,7 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21MappingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T21Mapping.app/T21Mapping";
 			};
 			name = Debug;
@@ -432,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21MappingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T21Mapping.app/T21Mapping";
 			};
 			name = Release;
