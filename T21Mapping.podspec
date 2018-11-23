@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author    = "Eloi Guzman Ceron"
   s.platform     = :ios
   s.ios.deployment_target = "10.0"
-  s.source       = { :git => "https://github.com/worldline-spain/T21Mapping.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/worldline-spain/T21Mapping.git", :tag => "1.2.1" }
   s.source_files  = "Classes", "src/**/*.{swift}"
   s.framework  = "UIKit"
   s.requires_arc = true
