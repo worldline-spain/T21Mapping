@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36536F63229438E00055AB41 /* T21Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 36536F61229438E00055AB41 /* T21Mapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36536F66229438E00055AB41 /* T21Mapping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36536F5F229438E00055AB41 /* T21Mapping.framework */; };
+		36536F67229438E00055AB41 /* T21Mapping.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36536F5F229438E00055AB41 /* T21Mapping.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36536F6C22943D160055AB41 /* Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22261E55F8D80041EA76 /* Mapping.swift */; };
+		36536F6D22943D160055AB41 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22271E55F8D80041EA76 /* MappingError.swift */; };
+		36536F6E22943D160055AB41 /* MappingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22281E55F8D80041EA76 /* MappingResult.swift */; };
 		9F83248121A8439B0081FD4D /* T21Mapping.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F83248021A8439B0081FD4D /* T21Mapping.podspec */; };
 		B9CB22061E55F81B0041EA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22051E55F81B0041EA76 /* AppDelegate.swift */; };
 		B9CB22081E55F81B0041EA76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22071E55F81B0041EA76 /* ViewController.swift */; };
@@ -20,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		36536F64229438E00055AB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9CB21FA1E55F81B0041EA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36536F5E229438E00055AB41;
+			remoteInfo = T21Mapping;
+		};
 		B9CB22171E55F81C0041EA76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9CB21FA1E55F81B0041EA76 /* Project object */;
@@ -29,9 +42,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36536F6B229438E00055AB41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36536F67229438E00055AB41 /* T21Mapping.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		36536F5F229438E00055AB41 /* T21Mapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21Mapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36536F61229438E00055AB41 /* T21Mapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21Mapping.h; sourceTree = "<group>"; };
+		36536F62229438E00055AB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F83248021A8439B0081FD4D /* T21Mapping.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21Mapping.podspec; sourceTree = "<group>"; };
-		B9CB22021E55F81B0041EA76 /* T21Mapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Mapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CB22021E55F81B0041EA76 /* T21MappingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21MappingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CB22051E55F81B0041EA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9CB22071E55F81B0041EA76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9CB220A1E55F81B0041EA76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,10 +77,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		36536F5C229438E00055AB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9CB21FF1E55F81B0041EA76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36536F66229438E00055AB41 /* T21Mapping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36536F60229438E00055AB41 /* T21Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				36536F61229438E00055AB41 /* T21Mapping.h */,
+				36536F62229438E00055AB41 /* Info.plist */,
+			);
+			path = T21Mapping;
+			sourceTree = "<group>";
+		};
 		B9CB21F91E55F81B0041EA76 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +118,7 @@
 				B9CB22041E55F81B0041EA76 /* T21Mapping */,
 				B9CB22251E55F8D80041EA76 /* src */,
 				B9CB22191E55F81C0041EA76 /* T21MappingTests */,
+				36536F60229438E00055AB41 /* T21Mapping */,
 				B9CB22031E55F81B0041EA76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,8 +126,9 @@
 		B9CB22031E55F81B0041EA76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9CB22021E55F81B0041EA76 /* T21Mapping.app */,
+				B9CB22021E55F81B0041EA76 /* T21MappingExample.app */,
 				B9CB22161E55F81C0041EA76 /* T21MappingTests.xctest */,
+				36536F5F229438E00055AB41 /* T21Mapping.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,14 +167,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		36536F5A229438E00055AB41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36536F63229438E00055AB41 /* T21Mapping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B9CB22011E55F81B0041EA76 /* T21Mapping */ = {
+		36536F5E229438E00055AB41 /* T21Mapping */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9CB221F1E55F81C0041EA76 /* Build configuration list for PBXNativeTarget "T21Mapping" */;
+			buildConfigurationList = 36536F68229438E00055AB41 /* Build configuration list for PBXNativeTarget "T21Mapping" */;
 			buildPhases = (
-				B9CB21FE1E55F81B0041EA76 /* Sources */,
-				B9CB21FF1E55F81B0041EA76 /* Frameworks */,
-				B9CB22001E55F81B0041EA76 /* Resources */,
+				36536F5A229438E00055AB41 /* Headers */,
+				36536F5B229438E00055AB41 /* Sources */,
+				36536F5C229438E00055AB41 /* Frameworks */,
+				36536F5D229438E00055AB41 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -133,7 +194,26 @@
 			);
 			name = T21Mapping;
 			productName = T21Mapping;
-			productReference = B9CB22021E55F81B0041EA76 /* T21Mapping.app */;
+			productReference = 36536F5F229438E00055AB41 /* T21Mapping.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9CB22011E55F81B0041EA76 /* T21MappingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CB221F1E55F81C0041EA76 /* Build configuration list for PBXNativeTarget "T21MappingExample" */;
+			buildPhases = (
+				B9CB21FE1E55F81B0041EA76 /* Sources */,
+				B9CB21FF1E55F81B0041EA76 /* Frameworks */,
+				B9CB22001E55F81B0041EA76 /* Resources */,
+				36536F6B229438E00055AB41 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36536F65229438E00055AB41 /* PBXTargetDependency */,
+			);
+			name = T21MappingExample;
+			productName = T21Mapping;
+			productReference = B9CB22021E55F81B0041EA76 /* T21MappingExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B9CB22151E55F81C0041EA76 /* T21MappingTests */ = {
@@ -164,6 +244,11 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Worldline;
 				TargetAttributes = {
+					36536F5E229438E00055AB41 = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = C2UZU6ZLJE;
+						ProvisioningStyle = Automatic;
+					};
 					B9CB22011E55F81B0041EA76 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C2UZU6ZLJE;
@@ -192,13 +277,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9CB22011E55F81B0041EA76 /* T21Mapping */,
+				B9CB22011E55F81B0041EA76 /* T21MappingExample */,
 				B9CB22151E55F81C0041EA76 /* T21MappingTests */,
+				36536F5E229438E00055AB41 /* T21Mapping */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36536F5D229438E00055AB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9CB22001E55F81B0041EA76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +313,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		36536F5B229438E00055AB41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36536F6C22943D160055AB41 /* Mapping.swift in Sources */,
+				36536F6D22943D160055AB41 /* MappingError.swift in Sources */,
+				36536F6E22943D160055AB41 /* MappingResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9CB21FE1E55F81B0041EA76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,9 +346,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36536F65229438E00055AB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36536F5E229438E00055AB41 /* T21Mapping */;
+			targetProxy = 36536F64229438E00055AB41 /* PBXContainerItemProxy */;
+		};
 		B9CB22181E55F81C0041EA76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9CB22011E55F81B0041EA76 /* T21Mapping */;
+			target = B9CB22011E55F81B0041EA76 /* T21MappingExample */;
 			targetProxy = B9CB22171E55F81C0041EA76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -270,6 +378,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		36536F69229438E00055AB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21Mapping/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Mapping;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36536F6A229438E00055AB41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21Mapping/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Mapping;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B9CB221D1E55F81C0041EA76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -384,7 +555,9 @@
 		B9CB22201E55F81C0041EA76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
 				INFOPLIST_FILE = T21Mapping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,7 +571,9 @@
 		B9CB22211E55F81C0041EA76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
 				INFOPLIST_FILE = T21Mapping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -444,6 +619,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		36536F68229438E00055AB41 /* Build configuration list for PBXNativeTarget "T21Mapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36536F69229438E00055AB41 /* Debug */,
+				36536F6A229438E00055AB41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9CB21FD1E55F81B0041EA76 /* Build configuration list for PBXProject "T21Mapping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -453,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9CB221F1E55F81C0041EA76 /* Build configuration list for PBXNativeTarget "T21Mapping" */ = {
+		B9CB221F1E55F81C0041EA76 /* Build configuration list for PBXNativeTarget "T21MappingExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9CB22201E55F81C0041EA76 /* Debug */,
