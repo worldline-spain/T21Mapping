@@ -2,8 +2,8 @@
 > T21Mapping is a simple class which wraps a generic mapping function.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/pod-v1.5.0-blue.svg)](https://github.com/CocoaPods/CocoaPods)
-[![Swift compatible](https://img.shields.io/badge/Swift-4.2-orange.svg)]()
+[![CocoaPods compatible](https://img.shields.io/badge/pod-v2.0.0-blue.svg)](https://github.com/CocoaPods/CocoaPods)
+[![Swift compatible](https://img.shields.io/badge/Swift-5.0-orange.svg)]()
 [![Platform compatible](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)]()
 
@@ -28,7 +28,7 @@ To install T21Mapping with CocoaPods, add the following lines to your `Podfile`.
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0' 
+platform :ios, '8.0' 
 use_frameworks!
 
 pod 'T21Mapping'
