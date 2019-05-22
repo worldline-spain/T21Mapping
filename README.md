@@ -2,7 +2,7 @@
 > T21Mapping is a simple class which wraps a generic mapping function.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/pod-v2.0.0-blue.svg)](https://github.com/CocoaPods/CocoaPods)
+[![CocoaPods compatible](https://img.shields.io/badge/pod-v2.0.1-blue.svg)](https://github.com/CocoaPods/CocoaPods)
 [![Swift compatible](https://img.shields.io/badge/Swift-5.0-orange.svg)]()
 [![Platform compatible](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)]()
