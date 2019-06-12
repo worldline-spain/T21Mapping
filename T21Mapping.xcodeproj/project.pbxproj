@@ -13,6 +13,7 @@
 		36536F6C22943D160055AB41 /* Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22261E55F8D80041EA76 /* Mapping.swift */; };
 		36536F6D22943D160055AB41 /* MappingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22271E55F8D80041EA76 /* MappingError.swift */; };
 		36536F6E22943D160055AB41 /* MappingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22281E55F8D80041EA76 /* MappingResult.swift */; };
+		3FF3079D22B10BDB00524822 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3079C22B10BDB00524822 /* Package.swift */; };
 		9F83248121A8439B0081FD4D /* T21Mapping.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F83248021A8439B0081FD4D /* T21Mapping.podspec */; };
 		B9CB22061E55F81B0041EA76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22051E55F81B0041EA76 /* AppDelegate.swift */; };
 		B9CB22081E55F81B0041EA76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CB22071E55F81B0041EA76 /* ViewController.swift */; };
@@ -60,6 +61,7 @@
 		36536F5F229438E00055AB41 /* T21Mapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21Mapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36536F61229438E00055AB41 /* T21Mapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21Mapping.h; sourceTree = "<group>"; };
 		36536F62229438E00055AB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF3079C22B10BDB00524822 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9F83248021A8439B0081FD4D /* T21Mapping.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21Mapping.podspec; sourceTree = "<group>"; };
 		B9CB22021E55F81B0041EA76 /* T21MappingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21MappingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CB22051E55F81B0041EA76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		B9CB21F91E55F81B0041EA76 = {
 			isa = PBXGroup;
 			children = (
+				3FF3079C22B10BDB00524822 /* Package.swift */,
 				9F83248021A8439B0081FD4D /* T21Mapping.podspec */,
 				B9CB22041E55F81B0041EA76 /* T21Mapping */,
 				B9CB22251E55F8D80041EA76 /* src */,
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF3079D22B10BDB00524822 /* Package.swift in Sources */,
 				B9CB22291E55F8D80041EA76 /* Mapping.swift in Sources */,
 				B9CB222B1E55F8D80041EA76 /* MappingResult.swift in Sources */,
 				B9CB22081E55F81B0041EA76 /* ViewController.swift in Sources */,
