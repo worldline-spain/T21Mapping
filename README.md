@@ -2,14 +2,15 @@
 > T21Mapping is a simple class which wraps a generic mapping function.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/pod-v2.0.2-blue.svg)](https://github.com/CocoaPods/CocoaPods)
+[![CocoaPods compatible](https://img.shields.io/badge/pod-v2.1.0-blue.svg)](https://github.com/CocoaPods/CocoaPods)
 [![Swift compatible](https://img.shields.io/badge/Swift-5.0-orange.svg)]()
 [![Platform compatible](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)]()
+[![SwiftPM](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 ## Installation
 
-T21Mapping is available through [Carthage](https://github.com/Carthage/Carthage) or [CocoaPods](https://cocoapods.org).
+T21Mapping is available through [Carthage](https://github.com/Carthage/Carthage), [CocoaPods](https://cocoapods.org) or [Swift Package Manager](https://swift.org/package-manager/).
 
 ### Carthage
 
@@ -35,6 +36,15 @@ pod 'T21Mapping'
 ```
 
 Then run `pod install` command. For details of the installation and usage of CocoaPods, visit [its official website](https://cocoapods.org).
+
+### Swift Package Manager
+To integrate using Apple's Swift Package Manager, add the following as a dependency to your `Package.swift`.
+
+```rubi
+.package(url: "https://github.com/worldline-spain/T21Mapping.git", .upToNextMajor(from: "2.0.0"))
+```
+
+For details of the installation and usage of Swift Package Manager, visit [its official website](https://swift.org/package-manager/).
 
 ## Authors
 
